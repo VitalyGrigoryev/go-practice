@@ -12,5 +12,6 @@ func main() {
 		s += sep + os.Args[i]
 		sep = " "
 	}
+	hello()
 	fmt.Println(s)
 }
